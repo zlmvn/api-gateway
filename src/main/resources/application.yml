@@ -1,0 +1,8 @@
+spring:
+  dubbo:
+    name: apigateway
+    address: zookeeper://192.168.220.128:2181
+    check: false
+    timeout: 6000
+    retries: 0
+  
